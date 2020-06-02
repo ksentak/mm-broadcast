@@ -9,6 +9,9 @@ import SampleWork from './pages/SampleWork';
 import Contact from './pages/Contact';
 // import Error from './pages/Error';
 
+// Navbar
+import Navbar from './components/Navbar';
+
 // CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/transitions.css';
@@ -19,6 +22,7 @@ import './assets/css/main.css';
 function App() {
   return (
     <Router>
+      <Navbar />
       <Route
         render={({ location }) => (
           <TransitionGroup>
