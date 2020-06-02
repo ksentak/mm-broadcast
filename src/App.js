@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 // Pages
 import Home from './pages/Home';
@@ -9,7 +8,7 @@ import SampleWork from './pages/SampleWork';
 import Contact from './pages/Contact';
 // import Error from './pages/Error';
 
-// Navbar
+// Components
 import Navbar from './components/Navbar';
 
 // CSS
@@ -23,20 +22,12 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Route
-        render={({ location }) => (
-          <TransitionGroup>
-            <CSSTransition key={location.key} timeout={450} classNames='fade'>
-              <Switch location={location}>
-                <Route exact path='/' component={Home} />
-                <Route path='/about' component={About} />
-                <Route path='/samplework' component={SampleWork} />
-                <Route path='/contact' component={Contact} />
-              </Switch>
-            </CSSTransition>
-          </TransitionGroup>
-        )}
-      />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/samplework' component={SampleWork} />
+        <Route path='/contact' component={Contact} />
+      </Switch>
     </Router>
   );
 }
