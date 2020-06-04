@@ -1,8 +1,4 @@
 /* [ GENERAL ] */
-/*================================================== */
-
-/*** Miscellaneous ***/
-
 html {
   overflow-x: hidden;
   height: 100%;
@@ -81,7 +77,6 @@ hr.separator {
 }
 
 /*** Page Title ***/
-
 .title-section {
   margin: 0 auto;
   width: 100%;
@@ -116,13 +111,10 @@ hr.separator {
 }
 
 /* [ HEADER ] */
-/*================================================== */
 
 /*** Desktop Navigation ***/
-
 @media (min-width: 992px) {
   /*** Navigation ***/
-
   .header {
     position: fixed;
     right: 30px;
@@ -226,10 +218,7 @@ hr.separator {
 }
 
 /* [ Pages ] */
-/*================================================== */
-
 /*** Homepage ***/
-
 .home .color-block {
   position: fixed;
   height: 200%;
@@ -251,12 +240,12 @@ hr.separator {
   top: 30px;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
 }
-
+/* 
 .home .container-home {
   display: flex;
   align-items: center;
   min-height: 100%;
-}
+} */
 
 .home .home-details > div {
   max-width: 550px;
@@ -274,86 +263,26 @@ hr.separator {
   color: #fff;
   font-weight: 600;
 }
-
+/* 
 .home .home-details h6 {
   color: #eee;
   font-size: 22px;
   font-weight: 400;
   display: block;
-}
+} */
 
-.home .home-details p {
+/* .home .home-details p {
   margin: 10px 0 23px;
   font-size: 16px;
   line-height: 32px;
-}
+} */
 
 /*** About ***/
-
 .about .main-content {
   padding-bottom: 20px;
 }
 
-/* Personal Info List */
-
-.about .about-list li:not(:last-child) {
-  padding-bottom: 20px;
-}
-
-.about .about-list .title {
-  opacity: 0.8;
-  text-transform: capitalize;
-}
-
-.about .about-list .value {
-  font-weight: 600;
-}
-
-/* Box Stats */
-
-.about .box-stats {
-  padding: 20px 30px 25px 40px;
-  border-radius: 5px;
-  border: 1px solid #252525;
-}
-
-.about .box-stats.with-margin {
-  margin-bottom: 30px;
-}
-
-.about .box-stats h3 {
-  position: relative;
-  display: inline-block;
-  margin: 0;
-  font-size: 50px;
-  font-weight: 700;
-}
-
-.about .box-stats h3:after {
-  content: '+';
-  position: absolute;
-  right: -24px;
-  font-size: 33px;
-  font-weight: 300;
-  top: 2px;
-}
-
-.about .box-stats p {
-  padding-left: 45px;
-}
-
-.about .box-stats p:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 13px;
-  width: 30px;
-  height: 1px;
-  background: #777;
-}
-
 /* Resume */
-
 .about .resume-box ul {
   margin: 0;
   padding: 0;
@@ -431,22 +360,6 @@ hr.separator {
   opacity: 0.8;
 }
 
-/* Skills */
-
-.about .c100 {
-  float: none !important;
-  margin: 0 auto;
-  background-color: #252525;
-}
-
-.about .c100 > span {
-  color: #fff;
-}
-
-.about .c100:after {
-  background-color: #111;
-}
-
 /*** Portfolio ***/
 .portfolio .main-content {
   margin-left: 15px;
@@ -476,7 +389,6 @@ hr.separator {
 .contact .main-content {
   padding-bottom: 85px;
 }
-/* Left Side */
 
 .contact .custom-span-contact {
   font-weight: 600;
@@ -502,7 +414,6 @@ hr.separator {
   font-weight: 400;
 }
 
-/* Right Side */
 .contact-image {
   height: 275px;
   width: 450px;
