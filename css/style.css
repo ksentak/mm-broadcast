@@ -455,6 +455,10 @@ hr.separator {
   width: 93%;
 }
 
+.media-row {
+  margin: 45px 0;
+}
+
 .carousel-item img {
   height: 400px;
   width: 645px;
@@ -462,6 +466,10 @@ hr.separator {
 
 .spotify img {
   height: 400px;
+}
+
+.spotify-link {
+  cursor: pointer;
 }
 
 /*** Contact ***/
