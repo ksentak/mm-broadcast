@@ -220,7 +220,7 @@ hr.separator {
 /* [ Pages ] */
 /*** Homepage ***/
 .home .color-block {
-  position: fixed;
+  position: absolute;
   height: 200%;
   width: 100%;
   transform: rotate(-15deg);
@@ -247,16 +247,16 @@ hr.separator {
   min-height: 100%;
 } */
 
-.home .home-details > div {
+/* .home .home-details > div {
   max-width: 550px;
   margin: 0 auto;
-}
+} */
 
 .home .home-details h1 {
-  font-size: 45px;
+  font-size: 60px;
   line-height: 45px;
   font-weight: 700;
-  margin: 18px 0 10px;
+  margin: 18px 70px 0 10px;
 }
 
 .home .home-details h1 span {
@@ -276,6 +276,12 @@ hr.separator {
   font-size: 16px;
   line-height: 32px;
 } */
+
+.profile-img {
+  height: calc(100vh - 60px);
+  border-radius: 15px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+}
 
 /*** About ***/
 .about .main-content {
