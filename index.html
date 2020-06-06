@@ -62,7 +62,7 @@
       </ul>
       <!-- Fixed Navigation Ends -->
       <!-- Mobile Menu Starts -->
-      <nav role="navigation" class="d-block d-lg-none">
+      <nav class="d-block d-lg-none">
         <div id="menuToggle">
           <input type="checkbox" />
           <span></span>
@@ -92,19 +92,17 @@
       class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1"
     >
       <div class="row">
-        <!-- <div class="col-lg-4 position-fixed d-none d-lg-block"></div> -->
-        <div class="col-12 col-lg-6 order-lg-2 home-details text-center">
+        <!-- Column 1 -->
+        <div class="col-12 col-lg-6 home-details text-center">
           <h1 class="text-uppercase poppins-font mb-4"><span>Matt </span>Murphy</h1>
-
-          <iframe
-            width="530"
-            height="330"
-            src="https://www.youtube.com/embed/TZts3N1oSA4"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-
+          <div class="youtube-video">
+            <iframe
+              height="330"
+              src="https://www.youtube.com/embed/xhhR3QVmKqU"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
           <p class="open-sans-font">
             Matt Murphy is a play-by-play broadcaster and versatile communications professional.
             Since 2018, Matt has served as the television voice of the Delaware Blue Coats, the NBA
@@ -113,18 +111,30 @@
           </p>
           <a href="about.html" class="btn btn-about">More about Matt</a>
         </div>
-        <div class="col-12 col-lg-5 order-lg-1 home-img text-center">
-          <img src="img/MM1_Home.jpg" alt="Profile Headshot" class="img-fluid" />
+        <!-- Column 2 -->
+        <div class="col-12 col-lg-5 text-lg-left text-center mt-5 ml-lg-2 home-media">
+          <div class="row">
+            <div class="col-12 mb-2">
+              <img src="img/MM3_Home.jpeg" alt="Matt at broadcating table" class="img-fluid" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 mt-2">
+              <img
+                src="img/MM2_Home.jpg"
+                alt="Matt interviewing NBA commissioner Adam Silver"
+                class="img-fluid"
+              />
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Row 2 (Media)-->
-      <div class="row home-details">
-        <!-- Column 1 -->
+      <!-- <div class="row home-details">
         <div class="col-12 col-lg-6 text-center home-media">
           <img src="img/MM3_Home.jpeg" alt="Matt at broadcating table" class="img-fluid" />
         </div>
-        <!-- Column 2 -->
         <div class="col-12 col-lg-6 text-center home-media">
           <img
             src="img/MM2_Home.jpg"
@@ -132,23 +142,33 @@
             class="img-fluid"
           />
         </div>
-      </div>
+      </div> -->
 
-      <!-- Row 3 (Testimonials) -->
+      <!-- Row 2 (Testimonials) -->
       <div class="row home-details testimonials">
-        <div class="col-sm-10 offset-1 d-flex">
-          <img
-            src="img/RyanRuocco_Testimonial.jpg"
-            alt="Ryan Ruocco"
-            class="img-fluid testimonial-img pr-2"
-          />
-          <p class="testimonial-text open-sans-font">
+        <div class="col-12 order-sm-2 col-sm-7 col-md-8 col-lg-9">
+          <p class="testimonial-text open-sans-font text-center text-sm-left">
             “Matt Murphy is a talented young play-by-play man. He’s driven, approachable and
             incredibly skilled. I’m so excited to watch this young man’s career.”
             <br />
             <span class="bold">-Ryan Ruocco</span> ESPN, YES Network, DAZN
           </p>
         </div>
+        <div class="col-12 order-sm-1 col-sm-4 col-md-3 col-lg-2">
+          <img
+            src="img/RyanRuocco_Testimonial.jpg"
+            alt="Ryan Ruocco"
+            class="img-fluid testimonials-img"
+          />
+        </div>
+        <!-- <div class="col-12 col-sm-7 col-md-8 col-lg-9">
+          <p class="testimonial-text open-sans-font">
+            “Matt Murphy is a talented young play-by-play man. He’s driven, approachable and
+            incredibly skilled. I’m so excited to watch this young man’s career.”
+            <br />
+            <span class="bold">-Ryan Ruocco</span> ESPN, YES Network, DAZN
+          </p>
+        </div> -->
       </div>
     </section>
 
