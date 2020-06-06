@@ -5,35 +5,33 @@
     <title>Matt Murphy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Template Google Fonts -->
+    <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap"
       rel="stylesheet"
     />
 
-    <!-- Template CSS Files -->
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/preloader.min.css" rel="stylesheet" />
-    <!-- <link href="css/circle.css" rel="stylesheet" /> -->
     <link href="css/font-awesome.min.css" rel="stylesheet" />
     <link href="css/fm.revealator.jquery.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
-
-    <!-- CSS Skin File -->
-    <link href="css/skins/blue.css" rel="stylesheet" />
+    <link href="css/blue.css" rel="stylesheet" />
 
     <!-- Modernizr JS File -->
     <script src="js/modernizr.custom.js"></script>
   </head>
 
   <body class="contact">
-    <!-- Header Starts -->
+    <!-- Side Navbar -->
     <header class="header" id="navbar-collapse-toggle">
-      <!-- Fixed Navigation Starts -->
       <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
         <li class="icon-box">
           <i class="fa fa-home"></i>
@@ -60,8 +58,7 @@
           </a>
         </li>
       </ul>
-      <!-- Fixed Navigation Ends -->
-      <!-- Mobile Menu Starts -->
+      <!-- Mobile Navbar -->
       <nav class="d-block d-lg-none">
         <div id="menuToggle">
           <input type="checkbox" />
@@ -85,21 +82,21 @@
         </div>
       </nav>
     </header>
+
+    <!-- Page Title -->
     <section
       class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1"
     >
       <h1>CONTACT <span>MATT MURPHY</span></h1>
     </section>
+
+    <!-- Contact Page -->
     <section class="main-content revealator-slideup revealator-once revealator-delay1">
       <div class="container">
+        <!-- Row 1 -->
         <div class="row">
-          <!-- Left Side Starts -->
           <div class="col-12 col-lg-5">
             <h3 class="text-uppercase custom-title mb-0 ft-wt-600 pb-3">Let's connect</h3>
-            <!-- <p class="open-sans-font mb-3">
-              Feel free to connect with me. I am always open to discussing new projects, creative
-              ideas or opportunities to be part of your visions.
-            </p> -->
             <p class="open-sans-font custom-span-contact position-relative">
               <i class="fa fa-envelope-open position-absolute"></i>
               <span class="d-block">Send me an email</span>MattMurphy165@gmail.com
@@ -111,11 +108,12 @@
           </div>
 
           <div class="col-12 col-lg-7">
-            <img src="./img/MM4_Contact.jpeg" alt="Matt looking at phone" class="contact-image" />
+            <img src="./img/MM4_Contact.jpeg" alt="Matt looking at phone" class="contact-img" />
           </div>
         </div>
 
-        <div class="row mt-4">
+        <!-- Row 2 -->
+        <div class="row mt-4 mb-4">
           <div class="col-12">
             <h3>Recent Press</h3>
             <h6 class="mt-3">
@@ -134,21 +132,29 @@
           </div>
         </div>
 
-        <!-- Recent Tweets -->
+        <!-- Row 3 -->
         <div class="row mt-4">
-          <div class="col-12">
-            <h3>Tweets</h3>
+          <div class="col-12 col-lg-5">
             <a
               class="twitter-timeline"
               data-height="350px"
               data-width="400px"
               data-theme="dark"
-              data-limit='1'
+              data-limit="1"
               href="https://twitter.com/Matt_Murphy04?ref_src=twsrc%5Etfw"
               >Tweets by Matt_Murphy04</a
             >
             <script async src="https://platform.twitter.com/widgets.js"></script>
           </div>
+
+          <div class="col-12 col-lg-7 d-none d-sm-block">
+            <img
+              src="img/BlueCoatsBeat_Reuben.jpg"
+              alt="Blue Coats Beat"
+              class="img-fluid contact-img2"
+            />
+          </div>
+        </div>
       </div>
     </section>
 
@@ -179,6 +185,7 @@
           ></a>
         </li>
       </ul>
+      <!-- Copyright -->
       <div class="copyright mb-2">
         Copyright &copy; 2020 Matt Murphy
       </div>
@@ -193,7 +200,7 @@
     <script src="js/cbpGridGallery.js"></script>
     <script src="js/jquery.hoverdir.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"></script>
   </body>
 </html>

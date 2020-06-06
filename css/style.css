@@ -481,9 +481,20 @@ hr.separator {
   font-weight: 400;
 }
 
-.contact-image {
+.contact-img {
   height: 275px;
   width: 475px;
+}
+
+.contact-img2 {
+  height: 550px;
+  width: 85%;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-img2 {
+    width: 92%;
+  }
 }
 
 /*  [ Footer ] */
