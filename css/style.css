@@ -360,7 +360,6 @@ hr.separator {
 
 /*** Portfolio ***/
 .portfolio .main-content {
-  /* margin-left: 10px; */
   padding-bottom: 60px;
   margin-top: -25px;
   width: 93%;
@@ -375,12 +374,6 @@ hr.separator {
   width: 95%;
 }
 
-/* @media screen and (max-width: 576px) {
-  .youtube-video iframe {
-    width: 85%;
-  }
-} */
-
 .soundcloud-media iframe {
   width: 93%;
 }
@@ -391,8 +384,13 @@ hr.separator {
 }
 
 @media screen and (max-width: 768px) {
+  .photography {
+    padding: 0;
+    margin-left: 10px;
+  }
+
   .carousel-item img {
-    height: 400px;
+    height: 375px;
   }
 }
 
