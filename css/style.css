@@ -242,15 +242,6 @@ hr.separator {
   line-height: 28px;
 }
 
-/* .home-img {
-  margin-top: 45px;
-}
-.home-img img {
-  height: calc(100vh - 60px);
-  border-radius: 15px;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
-} */
-
 .home-media img {
   height: 235px;
   width: 385px;
@@ -259,6 +250,13 @@ hr.separator {
 .testimonials {
   margin-right: 50px;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials img {
+    height: 275px;
+    width: 385px;
+  }
 }
 
 .bold {
@@ -273,12 +271,6 @@ hr.separator {
 .about-img {
   height: 550px;
 }
-
-/* @media screen and (max-width: 768px) {
-  .about-img {
-    height: 500px;
-  }
-} */
 
 /* Resume */
 .about .resume-box ul {
@@ -390,7 +382,7 @@ hr.separator {
   }
 
   .carousel-item img {
-    height: 375px;
+    height: 300px;
   }
 }
 
