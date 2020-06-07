@@ -377,7 +377,7 @@ hr.separator {
 
 @media screen and (max-width: 576px) {
   .youtube-video iframe {
-    width: 400px;
+    width: 85%;
   }
 }
 
