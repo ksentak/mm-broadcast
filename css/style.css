@@ -420,6 +420,12 @@ hr.separator {
   width: 475px;
 }
 
+@media screen and (max-width: 768px) {
+  .contact-img {
+    width: 95%;
+  }
+}
+
 .contact-img2 {
   height: 550px;
   width: 85%;
