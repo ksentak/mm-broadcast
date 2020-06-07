@@ -270,6 +270,16 @@ hr.separator {
   padding-bottom: 20px;
 }
 
+.about-img {
+  height: 550px;
+}
+
+/* @media screen and (max-width: 768px) {
+  .about-img {
+    height: 500px;
+  }
+} */
+
 /* Resume */
 .about .resume-box ul {
   margin: 0;
@@ -350,7 +360,7 @@ hr.separator {
 
 /*** Portfolio ***/
 .portfolio .main-content {
-  margin-left: 15px;
+  margin-left: 10px;
   padding-bottom: 60px;
   margin-top: -25px;
   width: 93%;
