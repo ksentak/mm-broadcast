@@ -80,7 +80,7 @@ hr.separator {
   margin: 0 auto;
   width: 100%;
   position: relative;
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .title-section h1 {
@@ -220,7 +220,7 @@ hr.separator {
   margin: 50px 0 0 50px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .home-details {
     margin: 15px 0 0 0px;
   }
@@ -243,19 +243,31 @@ hr.separator {
 }
 
 .home-media img {
-  height: 235px;
-  width: 385px;
+  height: 285px;
+  width: 325px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-media img {
+    height: 315px;
+    width: 330px;
+  }
 }
 
 .testimonials {
+  margin-top: 75px;
   margin-right: 50px;
   align-items: center;
 }
 
 @media screen and (max-width: 768px) {
+  .testimonials {
+    margin: 30px 0 0 0;
+  }
+
   .testimonials img {
-    height: 275px;
-    width: 385px;
+    height: 315px;
+    width: 330px;
   }
 }
 
@@ -416,19 +428,20 @@ hr.separator {
 }
 
 .contact-img {
-  height: 275px;
+  height: 300px;
   width: 475px;
 }
 
 @media screen and (max-width: 768px) {
   .contact-img {
-    width: 95%;
+    height: 305px;
+    width: 360px;
   }
 }
 
 .contact-img2 {
-  height: 550px;
-  width: 85%;
+  height: 450px;
+  width: 80%;
 }
 
 @media screen and (max-width: 768px) {
@@ -587,7 +600,7 @@ hr.separator {
   }
 
   .home .home-details h1 {
-    font-size: 38px;
+    font-size: 48px;
     line-height: 38px;
     margin: 29px 0 13px;
   }
@@ -790,13 +803,9 @@ hr.separator {
   }
 
   .home .home-details h1 {
-    font-size: 29px;
+    font-size: 35px;
     line-height: 29px;
     margin: 18px 0 13px;
-  }
-
-  .home .home-details h6 {
-    font-size: 19px;
   }
 
   .title-section {
